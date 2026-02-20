@@ -235,3 +235,10 @@ body {
     grid-row: span 2;
   }
 }
+
+.mosaico-wrap img {
+  max-width: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
