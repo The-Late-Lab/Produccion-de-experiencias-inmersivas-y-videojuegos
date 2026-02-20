@@ -164,3 +164,29 @@ body {
   height: 100%;
   border: 0;
 }
+
+.galeria-wrap {
+  width: 100%;
+  height: 420px; /* mismo alto que el PDF para que se vea parejo */
+  border-radius: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #ddd;
+  background: #f3f3f3;
+  padding: 10px;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 fotos por fila */
+  gap: 10px;
+}
+
+.galeria-grid img {
+  width: 100%;
+  height: 150px;       /* alto fijo para uniformidad */
+  object-fit: cover;   /* recorta sin deformar */
+  border-radius: 10px;
+  display: block;
+  border: 1px solid #ccc;
+}
