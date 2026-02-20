@@ -38,6 +38,10 @@ body {
       padding-top: 10px;
     }
 
+    h3 {
+      padding-top: 10px;
+    }
+
     h4 {
       padding-top: 10px;
     }
@@ -145,7 +149,7 @@ body {
           height: 500px;
         }
       }
-      
+
       .pdf-wrap {
   width: 100%;
   height: 700px;              /* ajusta el alto */
