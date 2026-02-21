@@ -196,7 +196,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid #ccc;
-  background: #eaeaea;
+  background: transparent;
   min-width: 0;
 }
 
