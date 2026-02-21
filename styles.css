@@ -187,17 +187,14 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr; /* izquierda grande, derecha 2 columnas */
   grid-auto-rows: 120px;
-  gap: 10px;
+  gap: 6px;
 }
 
 /* Tiles */
 .tile {
-  display: block;
   border-radius: 10px;
   overflow: hidden;
-  border: 1px solid #ccc;
-  background: transparent;
-  min-width: 0;
+  border: 1px solid #ddd;
 }
 
 /* Imagen principal ocupa 2 filas */
@@ -216,13 +213,6 @@ body {
 .tile:hover img {
   transform: scale(1.02);
   transition: transform 0.2s ease;
-}
-
-.tile img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;   /* 🔥 muestra imagen completa */
-  background: #eaeaea;   /* opcional, rellena espacio vacío */
 }
 
 /* Responsive */
